@@ -1,0 +1,16 @@
+{
+  "name": "reactServerForDist",
+  "version": "3.6.1",
+  "description": "node服务，用于本地运行react build后的dist文件,路由为browserHistory ",
+  "author": "Pan <panfree23@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1"
+  
+  }
+}
