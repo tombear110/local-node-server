@@ -1,0 +1,22 @@
+{
+  "name": "localNodeServer",
+  "version": "3.6.1",
+  "description": "node服务，用于本地运行react build后的dist文件,路由为browserHistory ",
+  "author": "tangte1@foxmail.com",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "koa": "^2.5.1",
+    "express": "^4.17.1",
+    "koa-compress": "^3.0.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.3",
+    "koa-views": "^6.1.4",
+    "connect-history-api-fallback": "^1.6.0"
+    
+
+  }
+}
